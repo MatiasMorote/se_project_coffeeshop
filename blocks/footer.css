@@ -10,10 +10,6 @@
   color: #fff;
 }
 
-.footer__column_content_social {
-  margin-left: 100px;
-}
-
 .footer__logo {
   width: 105px;
   height: 39px;
@@ -38,7 +34,7 @@
 }
 
 .footer__list-item:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer__social-link {

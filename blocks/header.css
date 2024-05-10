@@ -7,10 +7,7 @@
   padding: 30px 80px 40px;
   position: relative;
   z-index: 0;
-  background-color: #fff;
-  background-image: url(../images/background_header.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #fff url(../images/background_header.svg) no-repeat center;
   box-sizing: border-box;
 }
 
@@ -36,7 +33,6 @@
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: -0.6px;
   margin: 28px 0 0;
 }
 

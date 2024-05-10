@@ -29,6 +29,13 @@
   box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
+  border-radius: 4px;
+  min-width: 380px;
+  min-height: 60px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
 }
 
 .form__button {
@@ -37,20 +44,7 @@
   margin-bottom: 32px;
 }
 
-.form__input[type="text"],
-.form__input[type="number"],
-.form__input[type="datetime-local"],
-.form__input[type="email"] {
-  border-radius: 4px;
-  min-width: 380px;
-  min-height: 60px;
-}
-
 .form__input::placeholder {
-  font-family: "Inter", "Arial", sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  font-style: normal;
   color: #838383;
 }
 
@@ -72,7 +66,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  opacity: 100%;
+  border: none;
 }
 
 .form__button:hover {
